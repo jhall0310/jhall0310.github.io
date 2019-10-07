@@ -8081,7 +8081,7 @@ header {
     left: 0;
     right: 0;
     content: '';
-    background: #1b212c;
+    
     opacity: .2;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
