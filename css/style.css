@@ -8082,7 +8082,7 @@ header {
     right: 0;
     content: '';
     
-    opacity: .2;
+    
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
