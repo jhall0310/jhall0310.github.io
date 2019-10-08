@@ -223,24 +223,24 @@
 	    	</div>
 	    </section>
 
-	    <section class="ftco-section">
+	   <section class="ftco-section">
 	    	<div class="container">
           <div class="row">
 		    		<div class="col-md-4">
 		    			<div class="row">
 			    			<div class="col-md-12 heading-section ftco-animate mb-3">
 		              <h2 class="mb-4">Technologies Supported</h2>
-		              <p>These are the technologies that I have supported over the years:</p>
+		              <p>These are the technologies that I have supported over the years(CLICK PHOTO FOR MORE INFO):</p>
 		            </div>
 	            </div>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a id="android" class="portfolio ftco-animate">
 		    				<div class="d-flex icon justify-content-center align-items-center">
 		    					
 		    				</div>
 		    				
 		    				<img src="https://i.imgur.com/xaJdBgB.png" class="img-fluid" alt="Colorlib Template">
 		    			</a>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a id="macosx" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    				
 		    				</div>
@@ -252,13 +252,13 @@
 		    				</div>
 		    				<img src="https://i.imgur.com/1cXVRcN.jpg" class="img-fluid" alt="Colorlib Template">
 		    			</a>
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a id="iphone" class="portfolio ftco-animate">
 			    			
 		    				<img src="https://i.imgur.com/uoPEnAt.jpg" class="img-fluid" alt="Colorlib Template">
 		    			</a>
 		    		</div>
 		    		<div class="col-md-8">
-		    			<a href="portfolio.html" class="portfolio ftco-animate">
+		    			<a id="windows10" class="portfolio ftco-animate">
 			    			<div class="d-flex icon justify-content-center align-items-center">
 			    					<span class="ion-md-search"></span>
 			    			</div>
@@ -267,24 +267,24 @@
 		    			</a>
 		    			<div class="row">
 		    				<div class="col-md-6">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a id="linux" class="portfolio ftco-animate">
 				    				<img src="https://i.imgur.com/vMHmsqT.jpg" class="img-fluid" alt="Colorlib Template">
 				    			</a>
 		    				</div>
 		    				<div class="col-md-6">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a id="salesforce" class="portfolio ftco-animate">
 				    				<img src="https://i.imgur.com/dxzIUSO.png" class="img-fluid" alt="Colorlib Template">
 				    			</a>
 		    				</div>
 		    			</div>
 		    			<div class="row">
 		    				<div class="col-md-8">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a id="microsoftazure" class="portfolio ftco-animate">
 				    				<img src="https://i.imgur.com/NHlebjx.png" class="img-fluid" alt="Colorlib Template">
 				    			</a>
 		    				</div>
 		    				<div class="col-md-4">
-		    					<a href="portfolio.html" class="portfolio ftco-animate">
+		    					<a id="aws" class="portfolio ftco-animate">
 			    					<div class="d-flex icon justify-content-center align-items-center"></div>
 				    				<img src="https://i.imgur.com/zH8TAo9.png" class="img-fluid" alt="Colorlib Template">
 				    			</a>
@@ -294,6 +294,7 @@
 		    	</div>
 	    	</div>
 	    </section>
+	    
     <section class="testimony-section">
 	      <div class="container">
 	        <div class="row d-md-flex">
@@ -509,7 +510,103 @@
 			});
 		});
 	
+		$('#macosx').click(function(){
+		Swal.fire({
+  			title: 'Mac OSX',
+  			text: 'Worked for Apple for 6 years supporting all forms of users on OSX.  From OS installation, to Application Suppport and to support for small businesses.',
+  			imageUrl: 'https://i.imgur.com/1cXVRcN.jpg',
+  			imageWidth: 400,
+  			imageHeight: 250,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
 	
+		$('#android').click(function(){
+		Swal.fire({
+  			title: 'Android',
+  			text: 'Supported MDN for the distribution of various Android devices for a number of orginizations.',
+  			imageUrl: 'https://i.imgur.com/xaJdBgB.png',
+  			imageWidth: 400,
+  			imageHeight: 375,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+		$('#iphone').click(function(){
+		Swal.fire({
+  			title: 'iPhone',
+  			text: 'Worked for Apple for 6 years supporting all forms of users on IOS. Full Support on MDNs, IOS, App Store and iTunes Store was provided.',
+  			imageUrl: 'https://i.imgur.com/uoPEnAt.jpg',
+  			imageWidth: 500,
+  			imageHeight: 375,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+		$('#windows10').click(function(){
+		Swal.fire({
+  			title: 'Windows',
+  			text: 'Supported for 7 years for various orginzations. From imaging orginizational machines, to pulling down group policies, extensive support is provided for Windows.',
+  			imageUrl: 'https://i.imgur.com/vBV4E1c.png',
+  			imageWidth: 500,
+  			imageHeight: 275,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+		$('#linux').click(function(){
+		Swal.fire({
+  			title: 'Linux OS',
+  			text: 'Supported for 3 years for various orginzations. Docker, server administration are the main highlights here.',
+  			imageUrl: 'https://i.imgur.com/vMHmsqT.jpg',
+  			imageWidth: 500,
+  			imageHeight: 500,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+	
+		$('#salesforce').click(function(){
+		Swal.fire({
+  			title: 'Salesforce',
+  			text: 'Salesforce Ranger, Saleforce APEX, Lightning, VLocity Cards, Vlocity Guided processes.  Provided support for any clients that hosted their applications on the Salesforce Platform.',
+  			imageUrl: 'https://i.imgur.com/dxzIUSO.png',
+  			imageWidth: 500,
+  			imageHeight: 300,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+		$('#microsoftazure').click(function(){
+		Swal.fire({
+  			title: 'Microsoft Azure',
+  			text: 'Full Support for deployment issues for .Net Applications hosted on Azure. QA, UI testing, Selenium, Ticketing in Microsoft VSO.',
+  			imageUrl: 'https://i.imgur.com/NHlebjx.png',
+  			imageWidth: 500,
+  			imageHeight: 300,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+		$('#aws').click(function(){
+		Swal.fire({
+  			title: 'Amazon Web Services',
+  			text: 'The next chapter, currently in classes to become an Amazon Certified Solutions Architect.',
+  			imageUrl: 'https://i.imgur.com/zH8TAo9.png',
+  			imageWidth: 650,
+  			imageHeight: 220,
+  			imageAlt: 'Custom image',
+  			animation: false
+			});
+		});
+
+
 	
 	
 	
