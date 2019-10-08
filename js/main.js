@@ -65,6 +65,7 @@ $(document).ready(function($) {
 			margin: 15,
 			stagePadding: 0,
 			nav: false,
+			autoplayTimeout:8000,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
